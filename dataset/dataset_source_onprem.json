@@ -1,0 +1,31 @@
+{
+	"name": "dataset_source_onprem",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_source_FileServer1",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"allfile": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": {
+					"value": "@dataset().allfile",
+					"type": "Expression"
+				},
+				"folderPath": "Dataset1"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

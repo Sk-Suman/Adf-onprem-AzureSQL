@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-onprem-ws"
+		},
+		"ls_getmetadata_FileServer1_password": {
+			"value": ""
+		},
+		"ls_source_FileServer1_password": {
+			"value": ""
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://Azure-SQL-credential.vault.azure.net/"
+		},
+		"ls_getmetadata_FileServer1_properties_typeProperties_host": {
+			"value": "E://"
+		},
+		"ls_getmetadata_FileServer1_properties_typeProperties_userId": {
+			"value": "DESKTOP-8J30P96\\DELL"
+		},
+		"ls_sink_AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "server-suman-host.database.windows.net"
+		},
+		"ls_sink_AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "db-Suman-database"
+		},
+		"ls_sink_AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "suman"
+		},
+		"ls_source_FileServer1_properties_typeProperties_host": {
+			"value": "E://"
+		},
+		"ls_source_FileServer1_properties_typeProperties_userId": {
+			"value": "DESKTOP-8J30P96\\DELL"
+		}
+	}
+}

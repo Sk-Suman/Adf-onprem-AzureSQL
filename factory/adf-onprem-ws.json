@@ -1,0 +1,15 @@
+{
+	"name": "adf-onprem-ws",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b669d24e-6f9d-4258-bbcd-4c427f935973",
+		"tenantId": "4f6ef927-9c4f-4743-a628-91a369dc70f9"
+	}
+}

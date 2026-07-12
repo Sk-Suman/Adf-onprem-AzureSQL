@@ -1,0 +1,6 @@
+{
+	"name": "inprem-selfhosted-ir",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

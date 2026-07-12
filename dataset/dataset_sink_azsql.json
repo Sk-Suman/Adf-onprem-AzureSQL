@@ -1,0 +1,24 @@
+{
+	"name": "dataset_sink_azsql",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sink_AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"alltable": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": {
+				"value": "@dataset().alltable",
+				"type": "Expression"
+			}
+		}
+	}
+}

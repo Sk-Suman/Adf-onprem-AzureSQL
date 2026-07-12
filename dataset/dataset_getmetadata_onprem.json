@@ -1,0 +1,22 @@
+{
+	"name": "dataset_getmetadata_onprem",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_getmetadata_FileServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"folderPath": "Dataset1"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
